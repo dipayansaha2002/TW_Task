@@ -1,7 +1,9 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-require("dotenv").config();
+//require("dotenv").config();
+const dotenv = require("dotenv");
+dotenv.config();
 const upload = require("express-fileupload");
 
 
@@ -19,7 +21,7 @@ const server = express();
 main().catch((err) => console.log(err));
 
 async function main() {
-    await mongoose.connect(process.env.MONGO_URL);
+    await mongoose.connect(process.env.MONGO_URI);
     console.log("Database connected");
 }
 

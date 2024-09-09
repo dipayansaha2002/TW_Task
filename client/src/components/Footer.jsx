@@ -53,9 +53,9 @@ const Footer = () => {
                             },
                         }}
                         target="_blank" 
-                        href="https://adysfolio.vercel.app"
+                        href="sahadipayan36@gmail.com"
                     >
-                          adysfolio/
+                          Dipayan Saha
                     </a>
                 </small>
             </div>

@@ -8,7 +8,7 @@ SmartWords is a modern blog application built with a focus on simplicity and fun
 
 ### Demo
 
-To be given
+https://youtu.be/YJn-o1YdCqk?si=6VQWigyflZUqqStr
 
 ### Key Features
 
